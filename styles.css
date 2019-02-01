@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+	max-height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.title {
+	float: left;
+	display: inline-block;
+	padding: none;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration-color: white;
+	font-size: 15px;
+}
+
+.description {
+	float: right;
+	display: inline-block;
+	padding-top: 35px;
+	padding-right: 100px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	align-content: center;
+}
+
+.message {
+	float: center;
+	margin: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 400px;
+	text-align: center;
+	color:white;
+	height: 0px;
+}
+
+.logo {
+	width: 70px;
+	height: auto;
+	float: left;
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding: none;
+}
+
+.text-block {
+  background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 0px;
+}
+
+.blurred-box{
+  position: relative;
+  width: 800px;
+  height: 600px;
+  top: calc(25% - 175px);
+  left: calc(10% - 125px);
+  background: inherit;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.blurred-box:after{
+ content: '';
+ width: 800px;
+ height: 700px;
+ background: inherit; 
+ position: absolute;
+ left: -5px;
+ left position
+ right: 0;
+ top: -20px;  
+ top position 
+ bottom: 0;
+ box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+ filter: blur(10px);
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+    color: black;
+    text-decoration:none;
+	font-family: 'Montserrat', sans-serif;
+    }
+.about {
+	padding: 20px;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: 'Montserrat', sans-serif;
+	width: 800px;
+	height: auto;
+	 margin: none;
+  color: black;
+	position: absolute;
+}
+/* Style the header */
+.header {
+background-color: white;
+height: 50px;
+width: 100%;
+padding: none;
+margin: none;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding: 0px;
+	margin: 0px;
+}
+
+.next {
+	width: 120px;
+	height: auto;
+}
+
+.contact {
+	float: right;
+	padding: 0px;
+	display: inline-block;
+}
+
+.button {
+	align-content: flex-end;
+	padding-right: 200px;
+	padding-top: 0px;
+	float: right;
+}
+
+.button2 {
+	align-content: flex-end;
+	padding-right: 200px;
+	padding-top: 0px;
+	float: right;
+	display: inline-block;
+}
+
+.main {
+	height: auto;
+	width: 100%;
+	background-color: white;
+	align-content: center;
+	margin: auto;
+	padding: none;
+}
+
+.grey {
+	color:#4A4A4A;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: none;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h3 {
+	text-decoration-color: white;
+}
+
+h2 {
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.col1 {
+	display: inline-block;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.col2 {
+	display: inline-block;
+	padding-right: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.col3 {
+	display: inline-block;
+	padding-bottom: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.services {
+	background-image: linear-gradient(white, lightgray);
+	padding: none;
+	margin: auto;
+	width: 850px;
+	align-content: center;
+}
+
+.wood {
+	background-image: url("images/0_WEB/Vintage white wood background - Old weathered wooden plank painted in white color.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.box {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: "100%";
+	height: auto;
+	margin: none;
+}
+
+.row {
+	width: 100%;
+	height: auto;
+	align-content: center;
+	float: center;
+}
+
+.form {
+	background-color:lightblue;
+}
+
+.commercial {
+	max-width: 550px;
+	height: auto;
+	align-content: left;
+	margin: auto;
+	padding-left: 50px;
+}
+
+.residential {
+	max-width: 550px;
+	height: auto;
+	align-content: left;
+	margin: auto;
+	padding-left: 50px;
+}
+
+.interior {
+	max-width: 550px;
+	height: auto;
+	align-content: right;
+	margin: auto;
+	padding-left: 50px;
+}
